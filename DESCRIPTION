@@ -10,7 +10,8 @@ RoxygenNote: 7.3.2
 License: MIT + file LICENSE
 Suggests: 
     knitr,
-    rmarkdown
+    rmarkdown,
+    pkgdown
 VignetteBuilder: knitr
 URL: https://ccani007.github.io/afterthoughts, https://github.com/ccani007/afterthoughts
 BugReports: https://github.com/ccani007/afterthoughts/issues

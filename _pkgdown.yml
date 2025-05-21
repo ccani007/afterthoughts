@@ -1,6 +1,9 @@
 url: https://ccani007.github.io/afterthoughts
 template:
-  logo: "man/figures/sticker.png"
+  params:
+    logo: "man/figures/sticker.png"
+    logo_width: 200px
+    logo_height: auto
   bootstrap: 5
 
 
