@@ -8,3 +8,10 @@ Encoding: UTF-8
 Roxygen: list(markdown = TRUE)
 RoxygenNote: 7.3.2
 License: MIT + file LICENSE
+Suggests: 
+    knitr,
+    rmarkdown
+VignetteBuilder: knitr
+URL: https://ccani007.github.io/afterthoughts, https://github.com/ccani007/afterthoughts
+BugReports: https://github.com/ccani007/afterthoughts/issues
+

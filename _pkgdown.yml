@@ -1,0 +1,12 @@
+url: https://ccani007.github.io/afterthoughts
+template:
+  logo: "man/figures/sticker.png"
+  bootstrap: 5
+
+
+navbar:
+  right:
+    - icon: fa-github fa-lg
+      href: https://github.com/ccani007/afterthoughts
+      aria-label: "GitHub repository"
+

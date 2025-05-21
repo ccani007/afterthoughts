@@ -1,0 +1,91 @@
+---
+title: "Getting Started with afterthoughts"
+author: "Catalina Canizares"
+date: "`r Sys.Date()`"
+output: rmarkdown::html_vignette
+vignette: >
+  %\VignetteIndexEntry{Getting Started with afterthoughts}
+  %\VignetteEngine{knitr::rmarkdown}
+  %\VignetteEncoding{UTF-8}
+---
+
+```{r setup, include = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>"
+)
+```
+
+# Introduction
+
+The `afterthoughts` package is designed to enhance the teaching and learning experience in R programming classrooms. It provides a structured approach to student reflection, ensuring that learners have the opportunity to process and internalize their learning experiences.
+
+This vignette will guide you through the basic usage of the package and show you how to integrate reflection prompts into your teaching practice.
+
+# Installation
+
+You can install the package from GitHub using:
+
+```{r eval = FALSE}
+# install.packages("devtools")
+devtools::install_github("ccani007/afterthoughts")
+```
+
+# Basic Usage
+
+Here's how to use the main functions of the package:
+
+```{r}
+library(afterthoughts)
+
+my_turn()
+```
+
+Each time a student runs the `my_turn()` function, they will receive a random reflection prompt.
+
+Lets try it out:
+
+```{r}
+my_turn()
+``` 
+
+
+# Exploring Reflection Prompts
+
+The `afterthoughts` package provides a collection of thoughtfully crafted reflection prompts. Let's explore how to use them:
+
+## Viewing All Prompts
+
+To see all available reflection prompts, use the `get_prompts()` function:
+
+```{r}
+library(afterthoughts)
+get_prompts()
+```
+
+
+## Using Prompts Effectively
+
+Here are some tips for using these prompts in your classroom:
+
+1. **Daily Reflection**: Use a prompt at the end of each class to encourage students to process what they've learned
+
+2. **Group Discussion**: Select a prompt for small group discussions about the day's material
+
+3. **Writing Exercise**: Have students write responses to prompts as a homework assignment
+
+4. **Class Warm-up**: Start class with a reflection on the previous session's learning
+
+## Next Steps
+
+- Try incorporating these prompts into your next R programming class
+
+- Observe how students engage with the reflection process
+
+- Adjust the prompts or create your own based on student responses
+
+- Share your experiences with the teaching community
+
+Remember, reflection is a powerful tool for deepening understanding and making learning more meaningful for your students.
+
+
