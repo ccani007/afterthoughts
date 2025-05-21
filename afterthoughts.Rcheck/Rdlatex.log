@@ -1,0 +1,7 @@
+Converting parsed Rd's to LaTeX Creating pdf output from LaTeX ...
+Error in texi2dvi(file = file, pdf = TRUE, clean = clean, quiet = quiet,  : 
+  pdflatex is not available
+Error in texi2dvi(file = file, pdf = TRUE, clean = clean, quiet = quiet,  : 
+  pdflatex is not available
+Error in running tools::texi2pdf()
+You may want to clean up by 'rm -Rf /var/folders/m5/8hyp29yd3sqb0xdvzft1bgwc0000gq/T//Rtmp0JxZWL/Rd2pdfc80835929d78'
