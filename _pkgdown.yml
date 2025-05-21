@@ -1,9 +1,9 @@
-xurl: ~
+url: https://ccani007.github.io/afterthoughts
 template:
   bootstrap: 5
   includes:
     in_header: |
-      <link rel="icon" type="image/png" href="man/figures/logo.png">
+      <link rel="icon" type="image/png" href="man/figures/sticker.png">
       <style>
         .navbar {
           background-color: #56018D !important;
@@ -17,11 +17,13 @@ template:
       </style>
   opengraph:
     image:
-      src: man/figures/logo.png
+      src: man/figures/sticker.png
       alt: "afterthoughts package hex sticker"
   params:
     bootswatch: flatly
-
+    logo: man/figures/sticker.png
+    logo_width: 200px
+    logo_height: auto
 
 navbar:
   right:
