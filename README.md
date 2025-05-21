@@ -1,7 +1,6 @@
 # afterthoughts
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-[![R build status](https://github.com/ccani007/afterthoughts/workflows/R-CMD-check/badge.svg)](https://github.com/ccani007/afterthoughts/actions)
 [![Lifecycle: experimental](https://img.shields.io/badge/lifecycle-experimental-orange.svg)](https://lifecycle.r-lib.org/articles/stages.html#experimental)
 
 An R package that provides reflection prompts for students to enhance their learning experience.
