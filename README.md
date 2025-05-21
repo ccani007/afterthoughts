@@ -29,6 +29,7 @@ In the fast-paced environment of programming education, it's easy to rush throug
 ## Who is this package for?
 
 This package is particularly valuable for:
+
 - R programming instructors who want to incorporate reflection into their teaching
 
 - Educators looking to make their R classes more interactive

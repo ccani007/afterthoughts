@@ -24,7 +24,6 @@ template:
     logo: man/figures/sticker.png
     logo_width: 200px
     logo_height: auto
-
 navbar:
   right:
     - icon: fa-github fa-lg
