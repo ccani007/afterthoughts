@@ -13,6 +13,5 @@ Suggests:
     rmarkdown,
     pkgdown
 VignetteBuilder: knitr
-URL: https://ccani007.github.io/afterthoughts, https://github.com/ccani007/afterthoughts
+URL: https://ccani007.github.io/afterthoughts, https://github.com/ccani007/afterthoughts, https://ccani007.github.io/afterthoughts/
 BugReports: https://github.com/ccani007/afterthoughts/issues
-
