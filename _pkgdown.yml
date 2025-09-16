@@ -1,32 +1,4 @@
 url: https://ccani007.github.io/afterthoughts/
 template:
   bootstrap: 5
-  includes:
-    in_header: |
-      <link rel="icon" type="image/png" href="man/figures/sticker.png">
-      <style>
-        .navbar {
-          background-color: #56018D !important;
-        }
-        .navbar-dark .navbar-nav .nav-link {
-          color: rgba(255, 255, 255, 0.85);
-        }
-        .navbar-dark .navbar-nav .nav-link:hover {
-          color: rgba(255, 255, 255, 1);
-        }
-      </style>
-  opengraph:
-    image:
-      src: man/figures/sticker.png
-      alt: "afterthoughts package hex sticker"
-  params:
-    bootswatch: flatly
-    logo: man/figures/sticker.png
-    logo_width: 200px
-    logo_height: auto
-navbar:
-  right:
-    - icon: fa-github fa-lg
-      href: https://github.com/ccani007/afterthoughts
-      aria-label: "GitHub repository"
 
